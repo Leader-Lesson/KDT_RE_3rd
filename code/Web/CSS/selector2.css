@@ -1,0 +1,32 @@
+/* 하위 선택자 */
+body section {
+  border: 1px solid darkblue;
+  padding: 10px;
+}
+
+body .first {
+  background-color: antiquewhite;
+}
+
+.first .font {
+  font-size: 25px;
+}
+
+/* 자식 선택자 */
+section > li {
+  color: blue;
+}
+
+section > div {
+  font-size: 30px;
+}
+
+/* 인접 형제 선택자 */
+#aespa + li {
+  background-color: aqua;
+}
+
+/* 일반 형제 선택자 */
+#harry ~ li {
+  background-color: darksalmon;
+}

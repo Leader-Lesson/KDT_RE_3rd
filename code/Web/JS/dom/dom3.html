@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS - DOM Event</title>
+    <script src="./dom3.js"></script>
+    <style>
+      .btn {
+        padding: 15px 20px;
+        width: 100px;
+        text-align: center;
+        background-color: skyblue;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      .btn:hover {
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 onclick="handleH1Click()">JS 이벤트에 대해 알아보자!!</h1>
+    <div class="btn" id="btn1">버튼1</div>
+    <div class="btn" id="btn2">버튼2</div>
+    <div class="btn" id="btn3">버튼3</div>
+    <div class="btn" id="btn4">버튼4</div>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <form id="test-form">
+      <input type="text" />
+      <button>클릭!</button>
+    </form>
+  </body>
+</html>

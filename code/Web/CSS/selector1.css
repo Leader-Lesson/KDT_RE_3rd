@@ -1,0 +1,29 @@
+/* 전체 선택자 */
+* {
+  color: brown;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  background-color: aqua;
+}
+
+.second {
+  color: darkturquoise;
+}
+
+.bg {
+  background-color: bisque;
+  color: blue;
+}
+
+.font {
+  font-size: 25px;
+}
+
+#first {
+  color: hotpink;
+}

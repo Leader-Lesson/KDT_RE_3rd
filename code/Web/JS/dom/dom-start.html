@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM start</title>
+    <script type="module" src="./dom-start.js"></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      input,
+      button {
+        width: 100px;
+      }
+      .default {
+        background-color: beige;
+      }
+      #green {
+        background-color: lightgreen;
+      }
+      #blue {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DOM 학습을 시작합니다.</h1>
+    <div class="default">1</div>
+    <div class="default">2</div>
+    <div class="default">3</div>
+    <div class="others" id="green">4</div>
+    <div class="others" id="blue">5</div>
+    <input type="text" name="id" />
+    <button name="id">click</button>
+  </body>
+</html>

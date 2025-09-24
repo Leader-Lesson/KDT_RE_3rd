@@ -1,0 +1,38 @@
+h3:hover {
+  background-color: black;
+  color: white;
+}
+
+textarea:focus {
+  background-color: peachpuff;
+}
+
+#red:checked + label {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+#blue:checked + label {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+#yellow:checked + label {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+button {
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+button:active {
+  background-color: gray;
+  color: palevioletred;
+}

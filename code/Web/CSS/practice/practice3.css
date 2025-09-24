@@ -1,0 +1,38 @@
+/* 야생의 사자만 선택 - 배경 빨간색*/
+/* body > .lion {
+  background-color: red;
+} */
+
+p.lion {
+  background-color: red;
+}
+
+/* 사파리 안의 사자만 선택 - 배경 greenyellow */
+.zoo ul .lion {
+  background-color: greenyellow;
+}
+
+/* 호랑이만선택 - 배경 노란색 */
+#tiger {
+  background-color: yellow;
+}
+
+/* 사자를 전부 선택, 글자를 sienna */
+.lion {
+  color: sienna;
+}
+
+/* 동물원 안의 사자만 선택, 폰트 두껍게 */
+.zoo .lion {
+  font-weight: bold;
+}
+
+/* 호랑이 뒤에 있는 팬더 선택, 배경 skyblue */
+#tiger + li {
+  background-color: skyblue;
+}
+
+/* 사파리 사자 뒤에 있는 사육사를 모두 선택, 배경을 orange */
+ul .lion ~ li {
+  background-color: orange;
+}

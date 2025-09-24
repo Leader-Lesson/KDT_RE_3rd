@@ -1,0 +1,48 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 20px;
+  margin: 10px 0px;
+  /* border: 2px solid black; */
+  border-top: 3px inset blue;
+  border-bottom: 1px solid black;
+  border-right: 2px dotted red;
+  border-left: 4px ridge green;
+}
+
+.px-box {
+  width: 200px;
+  background-color: beige;
+}
+
+.percent-wrapper {
+  width: 50%;
+}
+
+.percent-box {
+  width: 100%;
+  background-color: lightcyan;
+}
+
+.em-box {
+  font-size: 20px;
+  width: 10em;
+  background-color: lightyellow;
+}
+
+.rem-box {
+  font-size: 10px;
+  width: 10rem;
+  background-color: lightsalmon;
+}
+
+.viewport-box {
+  width: 70vw;
+  background-color: azure;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>테이블을 알아보자!(1)</h1>
+    <!-- 테이블의 속성은 사용되지X → CSS로 대체 -->
+    <table border="1" cellpadding="10" cellspacing="1">
+      <caption>
+        학생 성적표
+      </caption>
+      <!-- thead, tbody, tfoot, scope : HTML의 구조를 명시적으로 보여주기 위한 태그
+          실제 보이는 화면에는 영향을 주지 않음 -->
+      <thead align="center">
+        <tr>
+          <th scope="col">번호</th>
+          <th scope="col">이름</th>
+          <th scope="col">과목</th>
+          <th scope="col">점수</th>
+        </tr>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>1</td>
+          <td>윤태훈</td>
+          <td>지구과학</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>오왕경</td>
+          <td>국어</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>최하연</td>
+          <td>음악</td>
+          <td>95</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
