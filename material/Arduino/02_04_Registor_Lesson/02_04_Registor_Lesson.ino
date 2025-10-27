@@ -6,5 +6,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   int readValue = analogRead(A0);
+  delay(500);
   Serial.println(readValue);
 }
